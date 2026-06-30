@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0095/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5d0095/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金丹直指
+  date: '2015-08-29 02:05:01.550515'
+  source:
+    repository: kanripo
+    path: KR5d0095
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0095_000-ZTDZ.yaml, hash: 'sha256:12c73932b8a06eb486be2cbf422eb4bfa31ebbe185f3962a8c5b16bce3c62b4e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0095_000-ZTDZ.markers.yaml, hash: 'sha256:7eaff887d021f2158d1801e69fe99ffb7342726fd966e01edffe55158d1e732c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0095_SJB_000-240090a
+    span:
+    - body
+    - 0
+    - 3139
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:a415e492af5b3624a58bf78ec33a925110725841da4fccd71a3c38a1aa67da98
